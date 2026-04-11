@@ -12,7 +12,7 @@ load_dotenv()
 # Database Configuration
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:basma708@localhost:5432/monitor_db"
+    "postgresql://postgres:password@localhost:5432/monitor_db"
 )
 
 # Server Configuration
